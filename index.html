@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر البن والحلويات | أجود أنواع البن والصوصات والحلويات</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="search-box">
+                <input type="text" placeholder="ابحث عن منتج..." id="searchInput">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="logo">متجر البن والحلويات</div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#products">منتجاتنا</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="cart-icon">
+                🛒 <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-section" id="products">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-category="all">الكل</button>
+                <button class="filter-btn" data-category="coffee">بن</button>
+                <button class="filter-btn" data-category="sauce">صوصات</button>
+                <button class="filter-btn" data-category="syrup">سيرابات</button>
+                <button class="filter-btn" data-category="nutella">نوتيلا</button>
+                <button class="filter-btn" data-category="candy">كاندي</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- سيتم إضافة المنتجات ديناميكياً -->
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>تواصل معنا</h3>
+                <p>📱 واتساب: 01019464623</p>
+                <p>📧 البريد: info@coffee-chocolate.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>مواعيد العمل</h3>
+                <p>من السبت إلى الخميس</p>
+                <p>9 صباحاً - 11 مساءً</p>
+            </div>
+            <div class="footer-section">
+                <h3>تابعنا على</h3>
+                <div class="social-links">
+                    <a href="#">فيسبوك</a>
+                    <a href="#">انستجرام</a>
+                    <a href="#">تويتر</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="style.js"></script>
+</body>
+</html>
